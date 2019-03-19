@@ -5,6 +5,7 @@ def answer_to_funky_font(answer)
 end
 
 def print_funky_font(array)
+  puts ""
   array.each { |char| print_line_one_seven(char) }
   print "\n"
   array.each { |char| print_line_two(char) }
@@ -18,7 +19,7 @@ def print_funky_font(array)
   array.each { |char| print_line_six(char) }
   print "\n"
   array.each { |char| print_line_one_seven(char) }
-  print "\n"
+  puts ""
 end
 
 def print_line_one_seven(char)

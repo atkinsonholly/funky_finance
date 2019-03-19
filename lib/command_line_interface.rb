@@ -5,6 +5,7 @@ def run
 end
 
 def welcome
+  puts ""
   puts "Welcome to Funky Finance!"
 end
 
@@ -20,6 +21,7 @@ def calculate_a_number
 end
 
 def continue_or_quit
+  puts ""
   puts "Continue or quit?"
   input = " "
   while input
@@ -42,6 +44,7 @@ def input_variable(string)
 end
 
 def first_input
+  puts ""
   puts "What will the first variable be?"
   get_input
 end
